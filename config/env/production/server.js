@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
   proxy: true,
-  url: env("MY_HEROKU_URL"),
+  url: env("strapi-heroku9.herokuapp.com"),
   app: {
     keys: env.array("APP_KEYS"),
   },

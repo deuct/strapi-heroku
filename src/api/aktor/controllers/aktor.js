@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  newcontent controller
+ *  aktor controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::newcontent.newcontent');
+module.exports = createCoreController('api::aktor.aktor');

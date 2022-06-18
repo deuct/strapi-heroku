@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aktors",
+  "info": {
+    "singularName": "aktor",
+    "pluralName": "aktors",
+    "displayName": "aktor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "stage_name": {
+      "type": "string",
+      "required": true
+    },
+    "birth_date": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

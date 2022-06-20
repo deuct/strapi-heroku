@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
       depthLimit: 100,
       apolloServer: {
         tracing: false,
-        inspection: true,
+        introspection: true,
       },
     },
   },
